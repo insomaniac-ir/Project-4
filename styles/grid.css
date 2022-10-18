@@ -382,6 +382,7 @@
         flex-shrink: 0;
         flex-basis: 100%;
     }
+}
 
     @media only screen and (min-width: 1200px) {
         .col-xl-1 {
