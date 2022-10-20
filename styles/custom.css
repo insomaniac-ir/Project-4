@@ -67,6 +67,15 @@
     outline: none !important;
 }
 
+.btn-primary{
+    border: none;
+    outline: none;
+    padding: 0.9rem 1rem;
+    color: #fff;
+    background-color: #93A5FF;
+    border-radius: 0.3rem;
+}
+
 @media only screen and (min-width: 576px) {
     .d-sm-none {
         display: none !important;
