@@ -48,6 +48,7 @@ header {
     padding: 0;
     margin: 0;
     display: flex;
+    z-index: 9999;
 }
 
 .menu-item {
@@ -79,7 +80,6 @@ header {
     margin-top: 4rem;
 }
 .domain{
-    align-items: center;
 }
 .header-title{
     font-family: Roboto;
@@ -110,4 +110,8 @@ header {
 
 .header-btn{
     margin-left: 2rem;
+}
+
+.d-flex.domain-wrapper {
+    flex-basis: 23.75rem;
 }

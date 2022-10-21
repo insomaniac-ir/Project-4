@@ -75,6 +75,12 @@
     background-color: #93A5FF;
     border-radius: 0.3rem;
 }
+.order-0{
+    order:0 !important
+}
+.order-1{
+    order:1 !important
+}
 
 @media only screen and (min-width: 576px) {
     .d-sm-none {
