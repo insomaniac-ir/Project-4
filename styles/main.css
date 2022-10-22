@@ -115,3 +115,52 @@ header {
 .d-flex.domain-wrapper {
     flex-basis: 23.75rem;
 }
+
+/* ================ Start main =============== */
+
+.section-title{
+    font-family: 'Nunito ExtraBold';
+    font-size: 35px;
+    color: #2E2E2E;
+}
+.section-caption{
+    font-size: 18px;
+    color: #2E2E2E;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+
+/* ================ Services  =============== */
+.services{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.services div.row{
+    margin-top: 80px;
+}
+
+.services{
+
+}
+.service{
+   text-align: left;
+   align-items: flex-start;
+   margin-top: 40px;
+}
+.service img{
+    margin-right: 20px;
+}
+.service-content h3{
+    margin-top: 0;
+    font-family: 'Nunito Bold';
+    color: #2E2E2E;
+}
+
+.service-content p{
+    color: #2E2E2E;
+    opacity: 0.8;
+    line-height: 25px;
+    font-size: 17px;
+    max-width: 430px;
+}
