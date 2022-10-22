@@ -61,4 +61,7 @@
     .header-caption{
         font-size: 1rem;
     }
+    .start-img-fix{
+        max-width: 150px;
+    }
 }

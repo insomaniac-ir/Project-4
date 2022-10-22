@@ -164,3 +164,62 @@ header {
     font-size: 17px;
     max-width: 430px;
 }
+
+
+/* ================ Start  =============== */
+.start{
+    background-color: #F7F8FF;
+    padding: 70px 0;
+}
+.start .row .col-12{
+    margin-bottom: 25px;
+}
+
+.start-box{
+    background-color: #93A5FF;
+    border-radius: 5px;
+    padding: 30px;
+    position: relative;
+}
+.start-logo{
+    background-color: #424D83;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+}
+.start-title{
+    font-family: 'Nunito Bold';
+    color: #fff;
+    margin-top: 38px;
+}
+.start-description{
+    color: #fff;
+    line-height: 28px;
+}
+.start-btn{
+    background-color: #fff;
+    font-family: 'Nunito Bold';
+    color: #93A5FF;
+    display: block;
+    margin-left: auto;
+}
+.start-btn span{
+    margin-left: 10px;
+}
+.start-img-fix{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    max-width: 220px;
+}
+
+.start-box-2{
+    background-color: #424D83;
+}
+
+.start-logo2{
+    background-color: #93A5FF ;
+}
