@@ -259,8 +259,61 @@ header {
 
 .plans{
     padding: 70px 0;
-
 }
 .plans .row{
     margin-top: 80px;
+}
+.plan{
+    color: #2E2E2E;
+    text-align: center;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+.plan-top{
+    padding: 50px 30px 30px 30px;
+    transition: 0.3s;
+    border-top: 8px solid transparent;
+}
+.plan-img{
+
+}
+.lan-title{
+    font-family: "Nunito Bold";
+}
+.plan-description{
+    line-height: 28px;
+}
+.plan-bottom{
+    border-top: 1px solid #EBEBEB;
+    padding: 30px 0;
+    transition: 0.3s;
+    height: 128px;
+    overflow:hidden;
+}
+.plan:hover .plan-bottom{
+    height: 240px;
+}
+.plan:hover .plan-top{
+    border-top: 8px solid #93A5FF;
+}
+.plan-price{
+    font-size: 30px;
+    margin-top:15px
+}
+.plan-price small{
+    font-size: 14px;
+}
+.plan-btn{
+    color: #93A5FF;
+    background-color: #F7F8FF;
+    font-family: "Nunito Bold";
+    display:block;
+    width: 185px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.plan-btn i{
+    margin-left: 5px;
 }
