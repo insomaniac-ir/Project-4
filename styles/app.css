@@ -254,3 +254,13 @@ header {
 .start-logo2{
     background-color: #93A5FF;
 }
+
+/* -------- Plans Section ------------*/
+
+.plans{
+    padding: 70px 0;
+
+}
+.plans .row{
+    margin-top: 80px;
+}
