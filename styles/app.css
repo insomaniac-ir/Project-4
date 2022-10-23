@@ -25,13 +25,13 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 100vh;
+    height: 757px;
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
-    padding: 25px 0;
+    padding: 35px 0;
     align-items: center;
 }
 
@@ -66,123 +66,145 @@ header {
     border-radius: 5px;
     font-family: 'Nunito Bold';
 }
-.login-btn span{
+
+.login-btn span {
     margin-left: 10px;
 }
 
 
-.menu-icon{
+.menu-icon {
     font-size: 28px;
     cursor: pointer;
     display: none;
 }
-.header-content{
-    margin-top: 4rem;
+
+/* -------Header Content ------ */
+.header-content {
+    margin-top: 45px;
 }
-.domain{
-}
-.header-title{
+
+.header-title {
     font-family: Roboto;
-    font-size: 2.5rem
+    font-size: 40px;
 }
-.header-caption{
-    font-size: 1.1rem;
+
+.header-caption {
+    font-size: 21px;
     opacity: 0.8;
 }
-.header-txt{
+
+.header-txt {
     background-color: #384170;
     color: #fff;
-    padding: 0.9rem 1rem;
-    border-radius: 0.3rem 0 0 0.3rem;
-    max-width: 280px;
+    padding: 14px 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-right: 2px;
+    max-width: 290px;
     width: 100%;
 }
-.header-txt::placeholder{
+
+.header-txt::placeholder {
     color: #fff;
-    opacity: 0.8;
 }
-.header-domains{
+
+.header-domians {
     background-color: #384170;
     color: #fff;
-    padding: 12px 20px 11px 10px;
-    border-radius: 0 0.3rem 0.3rem 0;
+    padding: 11px 20px 11px 10px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
-.header-btn{
-    margin-left: 2rem;
+.header-btn {
+    margin-left: 25px;
 }
 
-.d-flex.domain-wrapper {
-    flex-basis: 23.75rem;
+.flex-wrapper {
+    flex-basis: 380px;
 }
 
-/* ================ Start main =============== */
+/* ================ End Header =============== */
 
-.section-title{
-    font-family: 'Nunito ExtraBold';
-    font-size: 35px;
+
+/* ================ Start Main =============== */
+
+.section-title {
+    font-family: "Nunito ExtraBold";
     color: #2E2E2E;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
 }
-.section-caption{
-    font-size: 18px;
+
+.section-caption {
     color: #2E2E2E;
-    opacity: 0.8;
     margin-top: 10px;
+    opacity: 0.8;
+    text-align: center;
+    font-size: 22px;
 }
 
-/* ================ Services  =============== */
-.services{
+
+/* -------- Services Section ------------*/
+
+.services {
     text-align: center;
     padding: 50px 0;
 }
 
-.services div.row{
+.services div.row {
     margin-top: 80px;
 }
 
-.services{
+.service {
+    align-items: flex-start;
+    margin-top: 45px;
+}
 
+.service img {
+    margin-right: 22px;
+    width: 60px;
 }
-.service{
-   text-align: left;
-   align-items: flex-start;
-   margin-top: 40px;
+
+.service-content {
+    text-align: left;
 }
-.service img{
-    margin-right: 20px;
-}
-.service-content h3{
-    margin-top: 0;
-    font-family: 'Nunito Bold';
+
+.service-content h3 {
+    margin-bottom: 15px;
+    font-family: "Nunito Bold";
     color: #2E2E2E;
 }
 
-.service-content p{
-    color: #2E2E2E;
+.service-content p {
     opacity: 0.8;
-    line-height: 25px;
+    color: #2E2E2E;
+    line-height: 28px;
     font-size: 17px;
     max-width: 430px;
 }
 
 
-/* ================ Start  =============== */
+
+/* -------- Start Section ------------*/
+
+.start .row .col-12{
+    margin-bottom: 25px;
+}
 .start{
     background-color: #F7F8FF;
     padding: 70px 0;
 }
-.start .row .col-12{
-    margin-bottom: 25px;
+.start .row{
+    margin-top: 80px;
 }
-
 .start-box{
-    background-color: #93A5FF;
     border-radius: 5px;
     padding: 30px;
     position: relative;
 }
 .start-logo{
-    background-color: #424D83;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -191,35 +213,44 @@ header {
     height: 70px;
 }
 .start-title{
-    font-family: 'Nunito Bold';
+    font-family: "Nunito Bold";
     color: #fff;
     margin-top: 38px;
 }
 .start-description{
     color: #fff;
     line-height: 28px;
+
 }
 .start-btn{
     background-color: #fff;
-    font-family: 'Nunito Bold';
+    font-family: "Nunito Bold";
     color: #93A5FF;
     display: block;
     margin-left: auto;
 }
-.start-btn span{
+
+.start-btn i{
     margin-left: 10px;
 }
 .start-img-fix{
     position: absolute;
-    right: 30px;
-    top: 30px;
+    right: 15px;
+    top: 15px;
     max-width: 220px;
+
 }
 
-.start-box-2{
+.start-1{
+    background-color: #93A5FF;
+}
+.start-2{
     background-color: #424D83;
 }
 
+.start-logo1{
+    background-color: #424D83;
+}
 .start-logo2{
-    background-color: #93A5FF ;
+    background-color: #93A5FF;
 }

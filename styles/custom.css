@@ -15,6 +15,12 @@
     margin-top: 0 !important;
 }
 
+.mr-0 {
+    margin-right: 0 !important;
+}
+.ml-0 {
+    margin-left: 0 !important;
+}
 .p-0 {
     padding: 0 !important;
 }
@@ -67,20 +73,16 @@
     outline: none !important;
 }
 
-.btn-primary{
+
+.btn-primary {
     border: none;
     outline: none;
-    padding: 0.9rem 1rem;
+    padding: 14px 15px;
     color: #fff;
     background-color: #93A5FF;
-    border-radius: 0.3rem;
+    border-radius: 5px;
 }
-.order-0{
-    order:0 !important
-}
-.order-1{
-    order:1 !important
-}
+
 
 @media only screen and (min-width: 576px) {
     .d-sm-none {
