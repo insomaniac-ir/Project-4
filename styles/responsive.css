@@ -13,7 +13,7 @@
         transition: 0.3s;
     }
     .menu-item{
-        margin: 25px 15px;
+        margin: 25px 15px !important;
     }
     .login-btn{
         display: block;
@@ -48,6 +48,15 @@
     .header-content {
         margin-top: 0px;
     }
+    .plan-bottom{
+        height: 240px;
+    }
+    .plan-top{
+        border-top: 8px solid #93A5FF;
+    }
+    .plans{
+        height: auto;
+    }
 }
 @media only screen and (max-width: 576px) {
     .header-title{
@@ -58,5 +67,11 @@
     }
     .start-img-fix{
         max-width: 150px;
+    }
+    .section-title{
+        font-size: 25px;
+    }
+    .section-caption{
+        font-size: 17px;
     }
 }

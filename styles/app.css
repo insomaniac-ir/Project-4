@@ -153,10 +153,6 @@ header {
     padding: 50px 0;
 }
 
-.services div.row {
-    margin-top: 80px;
-}
-
 .service {
     align-items: flex-start;
     margin-top: 45px;
@@ -196,9 +192,6 @@ header {
     background-color: #F7F8FF;
     padding: 70px 0;
 }
-.start .row{
-    margin-top: 80px;
-}
 .start-box{
     border-radius: 5px;
     padding: 30px;
@@ -216,6 +209,7 @@ header {
     font-family: "Nunito Bold";
     color: #fff;
     margin-top: 38px;
+    text-transform: uppercase;
 }
 .start-description{
     color: #fff;
@@ -259,9 +253,7 @@ header {
 
 .plans{
     padding: 70px 0;
-}
-.plans .row{
-    margin-top: 80px;
+    height: 835px;
 }
 .plan{
     color: #2E2E2E;
@@ -269,12 +261,16 @@ header {
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.13);
     border-radius: 5px;
     overflow: hidden;
-
+    margin-bottom: 25px;
+    user-select: none;
 }
 .plan-top{
     padding: 50px 30px 30px 30px;
     transition: 0.3s;
     border-top: 8px solid transparent;
+}
+.plan:hover .plan-top{
+    border-top: 8px solid #93A5FF;
 }
 .plan-img{
 
@@ -295,9 +291,6 @@ header {
 .plan:hover .plan-bottom{
     height: 240px;
 }
-.plan:hover .plan-top{
-    border-top: 8px solid #93A5FF;
-}
 .plan-price{
     font-size: 30px;
     margin-top:15px
@@ -316,4 +309,28 @@ header {
 }
 .plan-btn i{
     margin-left: 5px;
+}
+
+
+/* -------- Clients Section ------------*/
+
+.clients-logo{
+    list-style: none;
+    padding: 0 0 30px 0;
+    text-align:center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.clients-logo li{
+    flex-grow: 1;
+    margin-bottom:20px;
+}
+.clients-logo li img{
+    width: 160px;
+}
+.btn-clients{
+    display: block;
+    width: 153px;
+    margin: 0 auto;
 }
