@@ -383,6 +383,10 @@ header {
 .comment-img{
     width: 85px !important;
     margin-right: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16);
+    height: 85px !important;
+    border-radius: 50px;
+    object-fit: cover;
 }
 .owl-dots .owl-dot{
     outline: none;
@@ -397,6 +401,7 @@ header {
     background-color: #93A5FF !important;
     transform: scale(1.6);
     opacity: 1;
+    box-shadow: 0 5px 10px rgba(147, 165, 225, 0.5);
 }
 
 .owl-prev span, .owl-next span{
