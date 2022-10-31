@@ -345,17 +345,19 @@ header {
 }
 .comments-img{
     position: absolute;
+    width: 160px;
 }
 .comments-img1{
-    top:0;
+    top:-30px;
     right: 0;
 }
 .comments-img2{
-    bottom: 0;
+    bottom: -40px;
     left: 0;
 }
 
 .comment{
+    padding: 0px 60px;
 }
 .comment-content{
 
@@ -395,4 +397,37 @@ header {
     background-color: #93A5FF !important;
     transform: scale(1.6);
     opacity: 1;
+}
+
+.owl-prev span, .owl-next span{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px !important;
+    height: 40px;
+    width: 40px;
+    color: #889CFF !important;
+    background-color: rgba(147, 165, 225, 0.15) !important;
+}
+.owl-next, .owl-prev{
+    outline: none;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: 0;
+    color: 0;
+    text-decoration: none;
+}
+
+.owl-next{
+    position: absolute;
+    right: -25px;
+    top: 0;
+    bottom:0;
+}
+.owl-prev{
+    position: absolute;
+    left: -25px;
+    top: 0;
+    bottom:0;
 }

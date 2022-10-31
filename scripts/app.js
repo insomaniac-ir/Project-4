@@ -15,11 +15,15 @@ icon.addEventListener("click",function () {
 
 $('.owl-carousel').owlCarousel({
     margin:10,
+    loop:true,
+    autoplay:true,
+    autoplayTimeout:6000,
     responsiveClass:true,
     responsive:{
         0:{
             items:1,
-            nav:false
+            nav:false,
+            dots:false
         },
         768:{
             items:2,
