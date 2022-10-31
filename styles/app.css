@@ -426,13 +426,61 @@ header {
 
 .owl-next{
     position: absolute;
-    right: -25px;
+    right: -10px;
     top: 0;
     bottom:0;
 }
 .owl-prev{
     position: absolute;
-    left: -25px;
+    left: -10px;
     top: 0;
     bottom:0;
+}
+
+/* -------- END MAIN ------------*/
+
+
+/* -------- Start Footer ------------*/
+
+footer{
+    background: url("../images/footer_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 140px 0 80px 0;
+}
+
+.footer-list{
+
+}
+.footer-list-title{
+    text-transform: uppercase;
+}
+.footer-menu{
+    list-style-type: none;
+    padding-left: 0;
+}
+.footer-menu-item{
+    margin-bottom: 8px;
+}
+.footer-menu-link{
+
+}
+
+.accepts{
+
+}
+.accept{
+    background-color: #2D355D;
+    border-radius: 5px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+    width: 70px;
+}
+
+.accept img{
+    width: 65%;
 }
