@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 2 versions
+*/
+
 .mx-auto {
     margin-right: auto;
     margin-left: auto;
@@ -46,6 +53,8 @@
 }
 
 .d-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
     display: flex !important;
 }
 
@@ -54,15 +63,21 @@
 }
 
 .align-items-center {
-    align-items: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
 }
 
 .justify-content-center {
-    justify-content: center !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
 }
 
 .justify-content-between {
-    justify-content: space-between !important;
+    -webkit-box-pack: justify !important;
+        -ms-flex-pack: justify !important;
+            justify-content: space-between !important;
 }
 
 .border-0 {
@@ -90,7 +105,8 @@
 }
 
 .flex-wrap{
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 
 @media only screen and (min-width: 576px) {
@@ -103,6 +119,8 @@
     }
 
     .d-sm-flex {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
         display: flex !important;
     }
 }
@@ -117,6 +135,8 @@
     }
 
     .d-md-flex {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
         display: flex !important;
     }
 }
@@ -131,6 +151,8 @@
     }
 
     .d-lg-flex {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
         display: flex !important;
     }
 }
