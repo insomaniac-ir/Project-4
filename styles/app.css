@@ -484,3 +484,18 @@ footer{
 .accept img{
     width: 65%;
 }
+
+.footer-bottom {
+    margin-top: 35px;
+}
+.social{
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+.social-item{
+    margin-right: 10px;
+}
+
+.footer-logo{
+    margin-bottom: 15px;
+}

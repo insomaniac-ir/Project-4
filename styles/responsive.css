@@ -77,4 +77,13 @@
     footer{
         text-align: center;
     }
+    .footer-bottom{
+        justify-content: center;
+    }
+    .social{
+        justify-content: center; 
+    }
+    .accepts{
+        justify-content: center;
+    }
 }
